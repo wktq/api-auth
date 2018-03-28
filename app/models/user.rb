@@ -5,5 +5,5 @@ class User < ActiveRecord::Base
           # :confirmable, :omniauthable
   include DeviseTokenAuth::Concerns::User
 
-  has_many :favorites
+  has_many :user_things
 end
